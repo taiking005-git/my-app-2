@@ -1,0 +1,28 @@
+:root {
+	--primary-color: #0a0171;
+	--secondary-color: #2bc990;
+	--neutral-color: #ffffff;
+}
+
+* {
+	box-sizing: border-box;
+	margin: unset;
+	padding: unset;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.container {
+	background: var(--primary-color);
+	width: 375px;
+	height: 667px;
+	border-radius: 30px;
+	color: var(--neutral-color);
+	padding: 0 20px;
+}
